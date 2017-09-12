@@ -16,27 +16,8 @@
 </head>
 <body>
 <form id="object-container">
-  <div class="select-area">
-    <input type="radio" id="텍스트" class="selector" name="selector">
-    <label class="folder" for="텍스트">
-      <div class="icon">
-        <div class="inside"></div>
-      </div>
-      <input type="text" class="title" readonly value="텍스트" />
-    </label>
-  </div>
 
-  <div class="select-area">
-    <input type="radio" id="탐 색기" class="selector" name="selector">
-    <label class="folder" for="탐 색기">
-      <div class="icon">
-        <div class="inside"></div>
-      </div>
-      <input type="text" class="title" readonly value="탐 색기" />
-    </label>
-  </div>
 </form>
-
 
 <ul id="context-menu">
   <li class="folder file" data-event="open">열기</li>
@@ -45,5 +26,9 @@
   <li class="folder file" data-event="rename">이름바꾸기</li>
 </ul>
 
+<div id="template">
+  <div id="_empty"></div>
+  <div id="_have"></div>
+</div>
 </body>
 </html>

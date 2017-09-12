@@ -67,7 +67,7 @@ function autoSelectedRadioBox(target){
 function contextMenuActions(action) {
     switch (action) {
         case "new" : //새 폴더
-            makeFolder("empty");
+            makeFolder("empty", "NEW");
             break;
         case "delete" : //삭제
             remove();
